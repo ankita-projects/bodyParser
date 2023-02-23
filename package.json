@@ -1,0 +1,23 @@
+{
+  "name": "bodyparser",
+  "version": "1.0.0",
+  "description": "Express extention to read and parse JSON body in http request.",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "express",
+    "JSON",
+    "parser"
+  ],
+  "author": "Ankita",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "express": "^4.18.2",
+    "mocha": "^10.2.0",
+    "request": "^2.88.2",
+    "supertest": "^6.3.3"
+  }
+}
