@@ -13,7 +13,9 @@ function jsonBodyParser(req, res, next) {
   req.on("end", () => {
     try {
       console.log(data);
-      if (skipParsing) throw new Error();
+      if (skipParsing){
+        throw new Error();
+      } 
       req.body = JSON.parse(data);
       next();
     } catch (err) {
